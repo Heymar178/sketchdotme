@@ -4,11 +4,14 @@ export const Wireframe = () => {
   return (
     <div className="bg-white flex flex-row justify-center w-full">
       <div className="bg-white overflow-hidden w-[1440px] h-[1935px] relative">
-        <img
-          className="absolute w-[145px] h-48 top-[90px] left-[1177px]"
-          alt="Image"
-          src="/img/image-8.png"
-        />
+        <a href="https://linktr.ee/sketchdotme" target="_blank" rel="noopener noreferrer">
+          <img
+              className="absolute w-[145px] h-48 top-[90px] left-[1177px]"
+              alt="Image"
+              src="/img/image-8.png"
+          />
+        </a>
+
 
         <img
           className="top-[366px] left-[41px] absolute w-[600px] h-0.5"
